@@ -24,12 +24,13 @@ class Network extends GetxController {
   void onInit() async {
     WidgetsFlutterBinding.ensureInitialized();
 
-    final keyApplicationId = 'wEzBjntesa3eQgsFSLeFp9SSbdOEcpa50C31Oegm';
-    final keyClientKey = '2zOkZTYfOnQF1Ws9KBziXFb7pcxqmf5T0xqDKtsP';
+//back4app keys
+    final keyApplicationId = 'Yor Key';
+    final keyClientKey = 'Your Key';
     final keyParseServerUrl = 'https://parseapi.back4app.com';
     await Parse().initialize(keyApplicationId, keyParseServerUrl,
         clientKey: keyClientKey, debug: true);
-
+//back4app keys
     QueryBuilder<ParseObject> query =
         QueryBuilder<ParseObject>(ParseObject('wsp'));
     
