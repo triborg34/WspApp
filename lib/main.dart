@@ -27,3 +27,9 @@ class MyApp extends StatelessWidget {
         home: Splashscreen());
   }
 }
+
+
+/* This App Made By Aref Mousavi 
+    Version :1.0.0
+    Contact:Aref.Mousavi0914@gmail.com
+ */
