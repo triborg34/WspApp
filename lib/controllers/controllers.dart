@@ -25,8 +25,8 @@ class Network extends GetxController {
     WidgetsFlutterBinding.ensureInitialized();
 
 //back4app keys
-    final keyApplicationId = 'Yor Key';
-    final keyClientKey = 'Your Key';
+    final keyApplicationId = 'wEzBjntesa3eQgsFSLeFp9SSbdOEcpa50C31Oegm';
+    final keyClientKey = '2zOkZTYfOnQF1Ws9KBziXFb7pcxqmf5T0xqDKtsP';
     final keyParseServerUrl = 'https://parseapi.back4app.com';
     await Parse().initialize(keyApplicationId, keyParseServerUrl,
         clientKey: keyClientKey, debug: true);
